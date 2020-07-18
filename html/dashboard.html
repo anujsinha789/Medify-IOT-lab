@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/globalStylesheet.css">
+    <script defer src="../js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul class = 'navbar'>
+            <img src="../assets/taichi-logo.jpg" id="navbar-logo">          
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./dashboard.html" >Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </header>
+    <div class="Container">
+        <div class="headingText">Choose a Meditation sound</div>
+        <div class="relaxation" >
+            <span class="heading">
+                Relaxation
+            </span>
+            <div class="seperator"></div>
+            <div class="row1">
+                <div class = "r-r1" onclick="setImg('audio1')">
+                    <img src="../assets/pic1.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>
+                </div>
+                <div class="r-r1" onclick="setImg('audio2')">
+                    <img src="../assets/med-catergory1.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>   
+                </div>
+                <div class="r-r1" onclick="setImg('audio3')">
+                    <img src="../assets/med-category-pic2.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span> 
+                </div>
+                <div class="r-r1" onclick="setImg('audio4')">
+                    <img src="../assets/med-category1-pic3.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>
+                </div>
+            </div>        
+        </div>
+        <div class="meditation">
+            <span class="heading">
+                Meditation
+            </span>
+            <div class="seperator"></div>
+            <div class="row1">
+                <div class = "r-r1"  onclick="setImg('audio1')">
+                    <img src="../assets/med-category1-pic3.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>
+                </div>
+                <div class="r-r1" onclick="setImg('audio2')">
+                    <img src="../assets/med-category-pic2.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>
+                </div>
+                <div class="r-r1" onclick="setImg('audio3')">
+                    <img src="../assets/med-catergory1.jpg " alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>
+                </div>
+                <div class="r-r1"  onclick="setImg('audio4')">
+                    <img src="../assets/pic1.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class="sound-name">Lorem ipsum</span>
+                </div>
+            </div>        
+        </div>
+        <div class="sleeping">
+            <span class="heading">
+                Sleeping
+            </span>
+            <div class="seperator"></div>
+            <div class="row1">
+                <div class = "r-r1" onclick="setImg('audio1')">
+                    <img src="../assets/med-category-pic2.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>
+                </div>
+                <div class="r-r1" onclick="setImg('audio2')">
+                    <img src="../assets/med-category1-pic3.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>
+                </div>
+                <div class="r-r1"  onclick="setImg('audio3')">
+                    <img src="../assets/pic1.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>
+                </div>
+                <div class="r-r1" onclick="setImg('audio4')">
+                    <img src="../assets/med-catergory1.jpg" alt="pic1" style="width: 100%; height: 100%;" class="pic1">
+                    <span class = 'sound-name'>Lorem ipsum</span>
+                </div>
+            </div>        
+        </div>
+        <footer>
+            <div class="footer">
+                <span class = 'rights-container'>
+                    All Rights Reserved @2020 Blackmat
+                </span>    
+                <div class="socialMedia">
+                    <div class="follow-us">Follow Us Here!</div>
+                    <div class="icons">
+                        <img src="../assets/fb-icon.png" height="30px" width="30px">
+                        <img src="../assets/instagram-icon.png" height="30px" width="30px" style="margin: 0px 10px;">
+                        <img src="../assets/twitter-icon.png" height="30px" width="30px" >
+                    </div>    
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- <script>
+        $(document).ready(function() {
+  
+        $(window).scroll(function () {
+            console.log($(window).scrollTop())
+            if ($(window).scrollTop() > 280) {
+                $('.navbar').addClass('navbar-fixed');
+            }
+            if ($(window).scrollTop() < 281) {
+                $('.navbar').removeClass('navbar-fixed');
+            }
+        });
+        });
+    </script> -->
+</body>
+</html>

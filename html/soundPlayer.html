@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/soundPlayer.css">
+    <link rel="stylesheet" href="../css/globalStylesheet.css">
+    <script defer src="../js/soundPlayer.js"></script>
+</head>
+<body onload="onload">
+    <header>
+        <ul class = 'navbar'>
+            <img src="../assets/taichi-logo.jpg" id="navbar-logo">
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./dashboard.html" >Dashboard</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="chooseAudio-btn" onclick="document.location.href = './dashboard.html'">
+            <span>Choose different Sound</span>
+            <!-- <span><img src="../assets/changeAudio-icon.jpg" alt="audio" style="width: 50%;position: absolute; align-self: baseline; height: 50%;"></span> -->
+        </div>
+        <div class="visual-dashboard">
+            <div class="video-container" id = 'audio-display'>
+                <div class="img-container">
+                </div>
+                <div class="audioDetail-container">
+                    <div class = 'audio-name'>Now Playing</div>
+                    <div class = 'audio-name'>Test Audio</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="green-bar"></div>
+                </div>
+            </div>
+            </div>
+            <div class="control-panel">
+                <div id="pause-btn"><div id = 'Pause'>Pause</div></div>
+                <div id="play-btn" onclick="playSound();"><div id = 'Play'>Play</div></div>
+                <div id="replay-btn"><div id = 'Replay'>Replay</div></div>
+            </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <span class = 'rights-container'>
+                All Rights Reserved @2020 Blackmat
+            </span>    
+            <div class="socialMedia">
+                <div class="follow-us">Follow Us Here!</div>
+                <div class="icons">
+                    <img src="../assets/fb-icon.png" height="30px" width="30px">
+                    <img src="../assets/instagram-icon.png" height="30px" width="30px" style="margin: 0px 10px;">
+                    <img src="../assets/twitter-icon.png" height="30px" width="30px" >
+                </div>    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
